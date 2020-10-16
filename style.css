@@ -3,6 +3,7 @@
     width: 100%;
     background-color:#007bff;
     z-index: 100;
+    height: 90px;
 }
 
 .main-h3-1{
@@ -13,8 +14,8 @@
 .main-lew{
     border-radius: 50%;
     margin-top: 4rem;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 
 .main-p{
@@ -33,7 +34,8 @@
 .main-btn-MP{
     border-color:  #007bff;
     background-color: white;
-    height: 3rem;
+    height: 4rem;
+    width: 20rem;
     margin-top: 2rem;
 }
 
@@ -49,7 +51,7 @@
 }
 
 .main-bg-P{
-    background-color:rgba(136, 133, 133, 0.685);
+    background-color:rgb(250, 248, 231);
    height: 150%;
 
 }
@@ -66,12 +68,14 @@
 
 .main-WW{
     text-align: center;
+    margin-top: 10px;
 }
 
 .main-btn-WW{
     border-color:  #007bff;
     background-color: white;
-    height: 3rem;
+    height: 4rem;
+    width: 20rem;
 }
 
 .main-icons{
@@ -94,5 +98,35 @@
 
 .sprawdz{
     border-bottom: solid #007bff;
-    text-align: center;
+}
+
+.main-f-size{
+    font-size: 30px;
+}
+
+.main-icons-1:hover{
+    color: blueviolet;
+}
+
+img:hover{
+    animation-name: zoom;
+    animation-duration: 2000ms;
+}
+
+@keyframes zoom{
+    from{
+      width: 100%;
+      height: 100%;
+    }to{
+        transform: scale(1.3);
+    }
+}
+
+.main-img{
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
